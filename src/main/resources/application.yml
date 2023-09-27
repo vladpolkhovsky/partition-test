@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: example
+    password: example
+    url: jdbc:p6spy:postgresql://localhost:5432/test-db
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database: postgresql
+
+server:
+  port: 8081
